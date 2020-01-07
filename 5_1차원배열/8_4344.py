@@ -3,7 +3,8 @@ for i in range(C):
     N = list(map(int, input().split()))
     avg = sum(N[1:])/N[0]
     count = 0
-    for j in range(N[i])
+    for j in range(len(N)):
+        if N[j] >
 
 # C = int(input())
 # pnlist = list()
