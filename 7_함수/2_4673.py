@@ -4,7 +4,7 @@ def dn(n):
         inf = inf + int(str(n)[-1])
     return inf
 
-print(dn(33))
+# print(dn(33))
 
 def constructor(n):
     int(dn(n)) = n
@@ -12,7 +12,7 @@ def constructor(n):
         n = n - int(str(n)[-1])
     return n
 
-print(constructor(39))
+# print(constructor(39))
  
 def selfnumber(n):
     for i in range(1,n+1):
