@@ -16,7 +16,9 @@ def constructor(n):
  
 def selfnumber(n):
     for i in range(1,n+1):
+        
         inf = n
         inf = inf + int(str(n)[-1])
     constructor = 
     for j in range(len(str(n)))
+
