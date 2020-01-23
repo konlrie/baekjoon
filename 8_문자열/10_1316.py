@@ -1,8 +1,13 @@
-N = int(input())
-w1 = input()
-w2 = input()
-w3 = input()
-
 import string
-for i in string.ascii_lowercase:
-    for j in len
+alphabet = string.ascii_lowercase
+N = int(input())
+for i in range(N):
+    word = input()
+    for alpha in alphabet:
+        for wd in word:
+            wordcheck = list()
+            if wd == alpha:
+                wordcheck.append(alphabet.index(alpha))
+                if 
+
+
